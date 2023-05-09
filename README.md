@@ -25,6 +25,8 @@ This diagram shows how AWS IAM works:
 
 
 ## Course Overview
+This link is useful for code relating to AWS Certified Solutions Architect:
+https://github.com/nealdct/aws-csaa-code
 
 Here, we will learn everything you need to know to pass your AWS Certified Solutions Architect Associate exam.
 What we will learn:
