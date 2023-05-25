@@ -506,3 +506,4 @@ With horizontal scaling each instance is identical to the AMI it is linked to.
 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/018eeccb-7784-4cea-9560-93a1e774c8e6)
 
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/44892a58-509b-40ca-9e17-429c49836590)
