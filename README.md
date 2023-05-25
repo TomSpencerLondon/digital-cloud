@@ -480,3 +480,29 @@ sudo touch /srv/ftp/my-ubuntu-file.txt
 
 ## Download the file
 get my-ubuntu-file.txt
+
+
+### IAM Policies
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/bdb4dd42-6fe7-47aa-a16a-0290a2945824)
+
+Here we define access to the bucket and access to the objects within the bucket.
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/203923f6-6c8b-4c00-b9d0-8699113f7b75)
+
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/182ee31d-823d-4994-8729-00fce3d05b84)
+
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/54c4ae8f-4c49-4c4c-a706-2fbd55bfc03e)
+
+#### AWS digital cloud training - 25 May 
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/0c3aac14-a100-4621-93a1-0204294d42b3)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/ce58e079-f616-4cfc-b645-49d1757966bb)
+
+With horizontal scaling each instance is identical to the AMI it is linked to.
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/018eeccb-7784-4cea-9560-93a1e774c8e6)
+
