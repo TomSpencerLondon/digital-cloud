@@ -64,3 +64,6 @@ sed "s/AZID/$EC2AZ/" /var/www/html/index.txt > /var/www/html/index.html
 1. Use Amazon Route 53 to create an alias to the load balancer
 2. Test using the custom domain name
 
+Negative cache on computer DNS:
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+
