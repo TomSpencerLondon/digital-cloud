@@ -533,3 +533,35 @@ So the CIDR blocks simply defines which part of the address space defines the ne
 
 https://www.subnet-calculator.com
 
+### Create a custom VPC
+
+#### Security Groups vs Network ACLs
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/40fc22b7-d47c-4404-b449-7765f0c5bfa5)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/7bc8ff15-b99c-4fc5-a64e-c5a109a0844f)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/8cfb4e81-4b51-48ba-b906-140db3cab861)
+
+### Nat gateway with Private EC2 instance
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/753b83db-5290-45c3-912b-aae9319cc2ff)
+
+### Using VPC endpoints
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/aac9a44e-45be-4866-b7f3-a540c8da71b6)
+
+### VPC Interface Endpoints
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/72810dd4-8e5c-4f12-aa71-e7504f71fc22)
+
+### Gateway endpoints
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/dd74e349-76eb-4b22-876d-7db380ced7d3)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/d6bc1394-af25-4890-89db-9dec6d84c7c2)
+
+#### Cloud Formation
+https://aws.amazon.com/cloudformation/resources/templates/
+
+![image](https://github.com/TomSpencerLondon/myPythonDockerRepo/assets/27693622/7d3cb624-3314-4e8b-b3e4-50c8b8cd67b9)
+
+
+
