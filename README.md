@@ -507,3 +507,29 @@ With horizontal scaling each instance is identical to the AMI it is linked to.
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/018eeccb-7784-4cea-9560-93a1e774c8e6)
 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/44892a58-509b-40ca-9e17-429c49836590)
+
+
+### DNS server
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/278a7e26-dd88-4bc6-9a70-f737c5051c43)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/dec85c1a-a56c-4043-8326-132ce2def084)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/20b9b8a3-dece-4773-91b3-421802147299)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/2c44ad17-4f35-4533-b551-6e761fb21f7c)
+
+us-east-1a:
+http://44.213.104.159/
+us-east-1b:
+http://34.239.133.144/
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/e2b9598b-1d2d-41df-ab2e-cbe7b6a021d4)
+
+
+#### VPC and Networking + Infrastructure as Code
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/5ef0919c-e45d-471f-8b18-b23429881c5f)
+
+So the CIDR blocks simply defines which part of the address space defines the network and which part is for hosts.  We can manipulate how many bits are available for hosts, to a degree.  There is a LOT more detail to this.
+
+https://www.subnet-calculator.com
+
