@@ -66,3 +66,57 @@ sed "s/AZID/$EC2AZ/" /var/www/html/index.txt > /var/www/html/index.html
 
 Negative cache on computer DNS:
 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+
+
+#### My notes:
+
+18.209.210.214
+54.198.226.251
+
+```bash
+tom@tom-ubuntu:~$ ping www.tomawslabs.link
+PING www.tomawslabs.link (54.198.226.251) 56(84) bytes of data.
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=1 ttl=107 time=91.8 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=2 ttl=107 time=91.3 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=3 ttl=107 time=90.0 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=4 ttl=107 time=90.9 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=5 ttl=107 time=91.8 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=6 ttl=107 time=92.8 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=7 ttl=107 time=91.4 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=8 ttl=107 time=91.6 ms
+64 bytes from ec2-54-198-226-251.compute-1.amazonaws.com (54.198.226.251): icmp_seq=9 ttl=107 time=91.7 ms
+^C
+--- www.tomawslabs.link ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8009ms
+rtt min/avg/max/mdev = 89.970/91.478/92.796/0.722 ms
+tom@tom-ubuntu:~$ nslookup
+> www.tomawslabs.link
+;; communications error to 127.0.0.53#53: timed out
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	www.tomawslabs.link
+Address: 54.198.226.251
+Name:	www.tomawslabs.link
+Address: 18.209.210.214
+
+```
+
+mail server:
+```bash
+tom@tom-ubuntu:~$ nslookup
+> set type=MX mail.tomawslabs.link
+> exit
+
+tom@tom-ubuntu:~$ nslookup
+> set type=MX
+> mail.tomawslabs.link
+;; communications error to 127.0.0.53#53: timed out
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+mail.tomawslabs.link	mail exchanger = 2 mailserver2.tomawslabs.link.
+mail.tomawslabs.link	mail exchanger = 1 mailserver1.tomawslabs.link.
+```
