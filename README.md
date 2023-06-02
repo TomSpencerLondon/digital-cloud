@@ -564,4 +564,111 @@ https://aws.amazon.com/cloudformation/resources/templates/
 ![image](https://github.com/TomSpencerLondon/myPythonDockerRepo/assets/27693622/7d3cb624-3314-4e8b-b3e4-50c8b8cd67b9)
 
 
+Note:
+You could do something like this to add it to the user data:
+#!/bin/bash
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+cat << EOF > /var/www/html/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Website</title>
+</head>
+<body>
+    <h1>S3 Website</h1>
+    <p>This static website is running on Amazon S3</p>
+</body>
+</html>
+EOF
 
+
+### Overview of AWS services
+
+#### Analytics
+- Amazon Athena (query data in S3 using SQL)
+- Amazon CloudSearch (managed search service)
+- Amazon Kinesis (analyse real time video and data streams)
+- Amazon OpenSearch Service (search, visualize and analyse petabytes of text and data)
+- Redshift (data warehousing)
+
+#### Cloud Financial Management
+- AWS Budgets (set custom cost and usage budgets)
+- AWS Cost and Usage Report (access comprehensive cost and usage information)
+- AWS Cost Explorer (analyse cost and usage)
+- Reserved instance reporting
+- Savings plans
+
+#### Compute
+- Amazon EC2 (virtual servers in the cloud)
+- Amazon EC2 auto scaling (scale compute capacity to meet demand)
+- Amazon Elastic Container Service (scalable containers)
+- Elastic Kubernetes Service (Kubernetes)
+- Amazon Lightsail (launch private virtual servers)
+
+#### Containers
+- Elastic Container Registry (store containers)
+- ECS 
+- EKS
+- AWS copilot - easiest way to launch and manage containerized application on AWS
+- AWS Fargate - Serverless compute for containers
+
+#### Database
+- Amazon Aurora - high performance managed relational database
+- Amazon DynamoDB - managed NoSQL database
+- Amazon ElastiCache (in memory caching service)
+- Amazon RDS (managed relational database service for MySQL, PSQL, Oracle, SQL Server, MariaDB)
+- Amazon Redshift (data warehousing)
+
+#### Frontend web and mobile
+- Amazon API Gateway (manage APIs)
+- AWS AppSync (accelerate app dev with GraphQL APIs)
+- AWS Device Farm (test Android, IOS and web apps on real devices in the AWS cloud)
+- Amazon Location Service (location data for applications)
+- AWS Amplify (build, deploy, host and manage web and mobile apps)
+
+#### Internet of Things
+- AWS IoT Core (connect devices to the cloud)
+- AWS IoT FleetWise (collect transform and transfer vehicle data to the cloud in real time)
+- AWS IoT SiteWise (IoT data collector and interpreter)
+- AWS IoT TwinMaker (optimize operations by creating digital twins of real-world systems)
+- AWS IoT Greengrass (local compute, messaging and sync for devices)
+
+#### Machine Learning
+- Amazon Bedrock - foundation models
+- Amazon Comprehend - insights and relationships in text
+- Amazon polly - text into lif-like speech
+- Amazon Rekognition - image and video analysis
+- Amazon SageMAker - build, train and deploy machine learning models at scale
+
+#### Networking and Content Delivery
+- Amazon API gateway - build, deploy and manage APIs
+- Amazon CloudFront - global content delivery network
+- Amazon Route 53 - scalable domain name system
+- Amazon VPC - isolated cloud resources
+- Elastic Load Balancing (ELB) - distribute incoming traffic across multiple targets
+
+#### Security, Identity and Compliance
+- Amazon Cognito - Identity management for apps
+- Amazon GuardDuty - managed threat detection service
+- AWS Identity and Access Management - secure access management for services and resources
+- AWS Key Management Service (KMS) Managed creation and control of encryption keys
+- AWS WAF - filter malicious web traffic
+
+#### Serverless
+- Amazon S3 - object storage built to retrieve any amount of data from anywhere
+- Amazon DynamoDB - managed NoSQL database
+- AWS Lambda - Run code without thinking about servers
+- AWS Fargate - serverless compute for containers
+- Amazon API Gateway - build, deploy and manage APIs
+
+#### Storage
+- Amazon Elastic Block Store - EC2 block storage volumes
+- Amazon Elastic File System (EFS) - file system management for EC2
+- Amazon S3 - object storage
+- AWS backup - centralised backup across AWS services
+- AWS Storage Gateway - hybrid storage integration
+
+
+### DNS, Auto Scaling and Load Balancing (Thursday 25 May 2023)
