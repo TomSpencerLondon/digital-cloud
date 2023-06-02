@@ -691,3 +691,11 @@ EOF
 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/910bd7d3-7d70-4939-b613-7654ff4bdf35)
 
+### Scaling up vs out
+- scaling up => more CPU, Ram / storage
+- Some instances have 100s of CPUs
+- Problem with instance is it leaves a lot to fail at once
+- Scaling out is safer
+- Scaling out => more instances
+- scaling out has no limit - best practice
+
