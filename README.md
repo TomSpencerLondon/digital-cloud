@@ -672,3 +672,15 @@ EOF
 
 
 ### DNS, Auto Scaling and Load Balancing (Thursday 25 May 2023)
+- Domain Name system
+- EC2 Auto Scaling
+- Elastic Load Balancing
+
+#### Domain Name System
+- DNS resolves IP address to a domain name
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/1e792f2c-f4e9-436b-8eee-18d95ee0ff7e)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/b105fd94-00ea-44dc-b85b-6d2775fd7ff7)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/520c8ca3-1e07-46a7-b8c5-7476eb145285)
