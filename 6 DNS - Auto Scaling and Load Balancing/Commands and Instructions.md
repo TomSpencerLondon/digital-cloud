@@ -48,25 +48,51 @@ sed "s/AZID/$EC2AZ/" /var/www/html/index.txt > /var/www/html/index.html
 ## Create a Launch Template and Auto Scaling Group
 
 1. Create a Launch Template with the above user data
+    - needs instance profile for S3 admin or read only
+    - also needs user data
 2. Create an Auto Scaling group that uses the launch template
-3. Attach at least 3 AZs and launch 3 instances
-
+    - EC2 AutoScaling groups
+    - Create Auto Scaling group
+    - ASG1 for name
+    - Use the launch template we created
+    - Don't need to change VPC from default
+    - Specify three availability zones (1a, 1b, 1c)
+    - No Load balancer - we will do that later
+    - Desired capacity: 3 (what you want it to be)
+    - Minimum: 3 (lowest can go)
+    - Maximum: 3 (most it can go)
+    - create auto scaling group
+You can also set a scaling policy if you want. We won't do that for the moment.
 
 # Lab 3 - Attach an Elastic Load Balancer
 
 1. Create a Target Group and attach it to the Auto Scaling group
 2. Create an Application Load Balancer across all AZs that have instances
 
+Next create a target group. Protocol and port should be 80 as that is what the instance are on.
+Health checks on http /
+Create target group. Go back to autoscaling groups. Select ASG1. Select load balancing - edit loadbalancing. Application, Network target groups for the load balancers and use the Target group created before.
+Create the Application Loadbalancer. ALB1 for name. Scheme is internet facing. IPv4. Default vpc. Select 3 availability zones selected for auto-scaling.
+Load balancer needs http protocol. Listener on port 80 and forward to Target group TG1 created earlier. The Target group should now have targets. They will start as initial and then move to healthy.
+
 # Lab 4 - Add a Custom Domain
 
 1. Use Amazon Route 53 to create an alias to the load balancer
 2. Test using the custom domain name
 
-Negative cache on computer DNS:
-sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+Use alias to attach the load balancer with the below configuration:
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/f8396b84-9e03-4e21-be10-cb1b59b5937e)
+
+We can then see the load balanced application in the browser:
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/343f0137-631a-4eaa-8d57-8d9e316a0632)
+
+
+
 
 
 #### My notes:
+Clear negative DNS cache on computer:
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 
 18.209.210.214
 54.198.226.251
