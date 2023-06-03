@@ -699,3 +699,13 @@ EOF
 - Scaling out => more instances
 - scaling out has no limit - best practice
 
+### Amazon EC2 Auto Scaling
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/7eec0fac-370e-4251-a435-fc3d7c793a4e)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/cbf7577d-ecd9-496f-8d05-b85b66707baf)
+
+
+#### Create an Auto Scaling Group
+These instructions are useful for deploying an auto scaling group:
+https://github.com/TomSpencerLondon/digital-cloud/blob/main/6%20DNS%20-%20Auto%20Scaling%20and%20Load%20Balancing/Commands%20and%20Instructions.md
+
