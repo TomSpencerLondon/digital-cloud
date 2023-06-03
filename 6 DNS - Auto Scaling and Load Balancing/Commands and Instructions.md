@@ -45,11 +45,9 @@ aws s3 cp s3://my-website-data-weq2ed/website.css ./website.css
 EC2AZ=$(TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"` && curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/placement/availability-zone)
 sed "s/AZID/$EC2AZ/" /var/www/html/index.txt > /var/www/html/index.html
 
-3. Create an AMI from the resulting instance
-
 ## Create a Launch Template and Auto Scaling Group
 
-1. Create a Launch Template that uses the AMI
+1. Create a Launch Template with the above user data
 2. Create an Auto Scaling group that uses the launch template
 3. Attach at least 3 AZs and launch 3 instances
 
