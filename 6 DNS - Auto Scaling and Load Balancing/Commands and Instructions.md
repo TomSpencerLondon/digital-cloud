@@ -61,7 +61,7 @@ sed "s/AZID/$EC2AZ/" /var/www/html/index.txt > /var/www/html/index.html
     - Desired capacity: 3 (what you want it to be)
     - Minimum: 3 (lowest can go)
     - Maximum: 3 (most it can go)
-    - create auto scaling group
+    - create auto-scaling group
 You can also set a scaling policy if you want. We won't do that for the moment.
 
 # Lab 3 - Attach an Elastic Load Balancer
@@ -87,6 +87,8 @@ We can then see the load balanced application in the browser:
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/343f0137-631a-4eaa-8d57-8d9e316a0632)
 
 
+Making the load balancer dynamic:
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/a8ac7539-fdcf-4cbc-ae5c-c8bf22375495)
 
 
 
