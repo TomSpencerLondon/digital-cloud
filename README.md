@@ -709,3 +709,51 @@ EOF
 These instructions are useful for deploying an auto scaling group:
 https://github.com/TomSpencerLondon/digital-cloud/blob/main/6%20DNS%20-%20Auto%20Scaling%20and%20Load%20Balancing/Commands%20and%20Instructions.md
 
+
+#### Accessing Services – Access Keys and IAM Roles
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/dd817ab2-d301-4ea0-8007-e58cc58a7899)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d4f46f66-4514-4c2a-a958-94320e27feb3)
+
+#### Difference between Access Keys and IAM roles
+IAM roles are better than access keys - they are more secure
+
+#### EC2 Placement Groups
+- Cluster - packs instances close together inside an AZ. This strategy enales workloads to achieve the low-latency network performance
+necessary for tightly-coupled node-to-node communication that is typical of HPC applications
+- Partition - spreads instances across logical partitions so that groups of instances in one partition
+do not share the underlying hardware with groups of instances in different partitions. This strategy
+is typically used by large distributed and replicated workloads, such as Hadoop, Cassandra and Kafka
+- Spread - strictly places a small group of instances across distinct underlying hardware to reduce correlated failures
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/52cf187c-a9a6-463e-8873-b399c802efc8)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/e56d6d75-e474-4dc3-b5c3-3edfe57f543b)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b53185e3-3e1d-4dea-9ffa-2cad04955c61)
+
+#### EC2 Placement Group Use Cases
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/037e481e-2258-41f1-82cb-2608e9ee248a)
+
+#### Elastic Network interfaces (ENI, ENA, EFA)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b5fa87fb-3996-439a-9640-c43ee90ee5c6)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d34dab4c-179b-4ebc-a41e-c282f0aaa673)
+
+
+
+
+
+
+
+
+#### Course overview (Solutions Architect Associate)
+This is the link for the course:
+https://digitalcloud.training/aws-saa-module-03-jun23-6b9d/
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/2c446fe5-2152-467d-a157-bea450a23928)
+
+
