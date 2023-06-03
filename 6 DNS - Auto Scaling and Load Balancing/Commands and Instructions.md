@@ -91,6 +91,9 @@ Making the load balancer dynamic:
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/a8ac7539-fdcf-4cbc-ae5c-c8bf22375495)
 
 
+Create dynamic scaling policy:
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d336117a-d278-4935-b235-c967fe995ed9)
+
 
 #### My notes:
 Clear negative DNS cache on computer:
@@ -146,3 +149,37 @@ Non-authoritative answer:
 mail.tomawslabs.link	mail exchanger = 2 mailserver2.tomawslabs.link.
 mail.tomawslabs.link	mail exchanger = 1 mailserver1.tomawslabs.link.
 ```
+
+
+### Digital Cloud training (continued)
+
+### Section 3 - Introduction
+- storage systems
+- vpc + network
+- used by many other higher level resources
+- Host servers in AWS data centre - run EC2 instances on AWS
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/f2b97514-3938-477e-9a55-4de9cf72d2e8)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/8793b0a0-ad5e-44f3-ad56-6e9d3c25e583)
+
+#### Benefits of Amazon EC2
+- Elastic computing - easily launch hundreds to thousands of instances in minutes
+- complete control - control ec2 instances with root / admin access
+- flexible - choice of instance types, operating systems, and software packages
+- reliable - EC2 offers very high levels of availability and instances can be rapidly commissioned and replaced
+- Secure - fully integrated with Amazon VPC and security features
+- Inexpensive - low cost, pay for what you use
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6d544a37-06f2-47f9-a3d9-0e2430f54ff4)
+
+
+#### EC2 User data 
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/62cb0334-dddd-489c-81f2-fff90c26f3ff)
+
+#### EC2 Metadata
+- Metadata is data about your EC2 instance
+- Instance metadata is available at: curl http://196.254.169.254/latest/meta-data
+- Find out about http://196.254.169.254/latest/meta-data/local-ipv4 - returns private ip address of the instance
+
