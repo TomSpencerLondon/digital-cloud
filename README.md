@@ -744,16 +744,126 @@ is typically used by large distributed and replicated workloads, such as Hadoop,
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d34dab4c-179b-4ebc-a41e-c282f0aaa673)
 
 
-
-
-
-
-
-
 #### Course overview (Solutions Architect Associate)
 This is the link for the course:
 https://digitalcloud.training/aws-saa-module-03-jun23-6b9d/
 
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/2c446fe5-2152-467d-a157-bea450a23928)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/ac139b01-a2ef-41f1-90eb-35bd3df12cd4)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/1f9d044c-8ee0-4592-8cf9-ac48385ff2e0)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/879fe60f-325c-43c9-891f-276b3691f0f3)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b55e7965-e614-49e6-8cce-e85bfa28277b)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d911cdd3-cfe7-4ab5-a846-cbe830fafb30)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b601711e-dc13-4ca5-b9cb-fb8779e77d3e)
+
+The measurement of Availability is driven by time loss whereas the measurement of Reliability is driven by the frequency and impact of failures.
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b11b2bf9-c67b-46c3-9c84-36196cf4b896)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/7a229d0c-8203-473e-b223-b15e3caa3867)
+
+Diagramming tools:
+https://aws.amazon.com/architecture/icons/
+
+Useful uptime calculator:
+https://uptime.is/
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/1781ba43-4115-4511-8316-e2f03bbdfe98)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/10ca8e6f-5c14-4b75-8959-ab9528ea2519)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/1fea951f-7d95-4982-8981-6bc1ac77c646)
+
+Low Recovery Point Objective and Recovery Time Objective both low for the above architecture. The cost is now $11770 a month.
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/844da54c-b035-4a1e-8a12-1b3c1e80dd1c)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b263ff8e-0051-40fe-bfbe-9060bf03557c)
+
+#### AWS Pricing calculator
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/62c10347-4627-4fc6-97ba-fb5247aadd6d)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/f784502b-11e1-4b64-8638-9c5be69bb64e)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d300c9d0-51f8-4b7b-81b4-313aa34019af)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/b5aab24e-b760-4d98-9816-4b39c5ccd794)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/fa8cdb9d-9508-466a-a658-c0d88dab891a)
+
+### Public, Private and Elastic IP Addresses
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/7118b53b-1650-48d7-9959-146d7f85baa5)
+
+### NAT for Public Addresses
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/0552d364-b582-4206-a639-45444248a3f0)
+
+
+### Private subnets and bastion hosts
+Creating a bastion host involves connecting to the instance in the public subnet which then connects to the private subnet.
+We will look at implementing this in this next section.
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/48536d52-0548-4826-a2ec-e8e2a8b9dc1e)
+
+This link is useful for setting up a bastion host to a server in a private subnet:
+https://digitalcloud.training/ssh-into-ec2-in-private-subnet/
+
+```bash
+tom@tom-ubuntu:~/Desktop$ chmod 400 my-ec2.pem
+tom@tom-ubuntu:~/Desktop$ ssh-add my-ec2.pem
+Identity added: my-ec2.pem (my-ec2.pem)
+tom@tom-ubuntu:~/Desktop$ ssh -A ec2-user@172.31.9.49
+^C
+tom@tom-ubuntu:~/Desktop$ ssh -A ec2-user@100.27.48.209
+The authenticity of host '100.27.48.209 (100.27.48.209)' can't be established.
+ED25519 key fingerprint is SHA256:gXZaCc4wZjNhvgjwcEgZGYNW4aoZs1YbLR1jeGqzG9w.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '100.27.48.209' (ED25519) to the list of known hosts.
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-9-49 ~]$ ssh ec2-user@172.31.81.221
+The authenticity of host '172.31.81.221 (172.31.81.221)' can't be established.
+ED25519 key fingerprint is SHA256:rhrP5HeIPq9XJMAnkEcUA6ssVCp5tuZMs1HVCg0mkYA.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '172.31.81.221' (ED25519) to the list of known hosts.
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-81-221 ~]$ 
+
+```
+Here we have connected to our public instance and then used this public instance to connect to the instance in the
+private subnet.
+
+#### NAT Gateways and NAT Instances Overview
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d1865c68-a5af-4f42-8df8-50f3ba191ff6)
+
+#### Nat instances are not used as much as NAT gateways
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/58a40388-570f-4e87-a591-5202ff6764c6)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/0ead298d-d865-4f1b-8195-b6197a51c425)
 
 
