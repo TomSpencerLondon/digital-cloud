@@ -888,4 +888,5 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
 
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/f471339e-dac9-4b13-88bb-fb35a2773447)
 
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6b71b297-7a06-4f38-aa60-e71a1264e8cf)
 
