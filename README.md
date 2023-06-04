@@ -866,4 +866,26 @@ private subnet.
 
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/0ead298d-d865-4f1b-8195-b6197a51c425)
 
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/576f4ec4-66b9-49b3-81d9-1620d5493fd6)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/12ab4fd8-161f-40cd-a2ca-2e355e3c7a0a)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d51c2eb9-e47c-4d82-bdc1-dfc07d98eb15)
+
+### Nitro instances and Nitro enclaves
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
+- Nitro is the underlying platform for the next generation of EC2 instances
+- Support for many virtualized and bare metal instance types
+- Breaks functions into specialized hardware with a Nitro Hypervisor
+- Specialized hardware including:
+  - Nitro cards for VPC
+- Performance, security and innovation - HPC
+- Nitro Enclaves - security - isolated and hardened virtual machines
+
+### EC2 Pricing Options
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/bb3f4581-546d-4ba9-b479-d82ae648c422)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/f471339e-dac9-4b13-88bb-fb35a2773447)
+
 
