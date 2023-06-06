@@ -890,3 +890,162 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
 
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6b71b297-7a06-4f38-aa60-e71a1264e8cf)
 
+### Architecture patterns - Amazon EC2
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/5ab3c2ce-e2f8-4e8e-a482-89ffd5754b52)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/ca9e1a11-4c1f-4df8-a4c5-40e3b4c7574b)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/2814d9ac-e125-4bb6-837a-02ce09ce1019)
+
+### Exam Cram EC2
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/ad6d15c6-1736-4a0c-9759-4d171d6336a5)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/04152070-3274-4c52-8cee-0c6d30d192c1)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/aa389c90-63eb-4507-b967-3c090d68b605)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/082c85c3-2d37-4b65-8e7b-811131a5b5a2)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/72f12c5d-8dba-4bca-94b3-98e6d859396e)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/83b8b69f-3f14-42e3-a539-4efd2d5a06ab)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/e07d9fbe-8b94-42c7-9522-0cfa3fdb7e76)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/7664277c-6110-407d-a010-4c3b92baa6d2)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/35348a61-62f5-4eb4-a7a2-174a216b1b5c)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/c43cc355-d1df-42d7-a5b7-cb7e44f02c92)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/bfe9fe94-b020-498d-97b7-fad936036650)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/74220958-83ec-4a2e-a012-2bda42bde50c)
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/01636657-06e8-4fc3-998f-275bbecf7031)
+
+#### Cheat sheets
+https://digitalcloud.training/amazon-ec2/
+
+https://digitalcloud.training/amazon-vpc/
+
+Build your skills, test yourself, and practice in a sandbox environment with the following recommended Challenge Labs:
+
+Can You Implement a Repeatable Compute Layer with EC2? [Advanced]
+Connect to an EC2 Instance by Using RDP [Guided]
+Create a Custom AMI from an Existing EC2 Instance [Guided]
+Can You Configure a Resilient EC2 Server Farm? [Expert]
+
+
+### Migrate to AWS
+https://cloudacademy.com/course/aws-migration-services-4036/aws-migration-services/?context_id=125&context_resource=lp
+
+#### 3 stage migration
+#### Assess 
+- first stage of migration
+- helps to determine how prepared you are as an organization to begin migration to AWS
+- Enables formulation of goals and objectives
+- Present an effective business case
+- Services:
+  - Migration evaluator
+  - AWS Migration Hub
+#### Mobilize
+- Emphasis on detailed migration planning and strategy
+- helps to define migration strategies consiting of
+  - relocate
+  - repurchase
+  - rehost
+  - retire
+  - replatform
+  - retain
+  - refactor
+- Identifies any skills gaps in your workforce
+- Services
+  - AWS Application Discovery Service
+  - AWS control tower
+#### Migrate and Modernize
+- used to design your deployments and solutions
+- identify any dependencies and understand interconnectivity required
+- validate designs
+- Services
+  - AWS migration for DBs and applications
+    - AWS Application Discovery Service
+    - AWS Database Migration Service (AWS DMS)
+  - AWS migration services used for migration of data:
+    - AWS Transfer family
+    - AWS dataSync
+    - AWS Snow Family 
+    - AWS Service Catalog
+
+#### Assess
+- AWS migration evaluator
+  - baseline premises environment
+  - projects cost using cost modeling and data analysis
+  - accelerates successful digital transformation to AWS
+- compute storage and microsoft licenses
+- keep expenditure low for migration
+- recommendations of resources
+- reduce costs by 50%
+- Agentless collector tool
+- AWS Migration Hub
+  - Quick insight report
+  - highlighting recommendations
+  - projected and expected costs
+  - issues found
+  - Dashboard overview of migration project
+  - discover and migrate services
+  - Powerful for overview
+  - Run from AWS management console
+  - discover and audit server inventory
+  - Migration hub import
+  - Migration evaluator collector
+  - AWS Agentless Discovery Connector
+  - AWS Application discovery agent
+- Understand the environment
+#### Mobilize (Migration and strategy planning)
+Two services:
+  - AWS Application Discovery Service
+    - AWS Migration Hub
+    - Amazon Athena
+    - Amazon QuickSight
+    - Agent based discovery / agentless discovery
+    - Agent installed across fleet of servers
+    - When Agent registered - connects to AWS Application discovery and AWS Migration hub
+      - TLS connection
+    - Agentless discovery - AWS discovery connector
+    - Gets information on each VM
+    - Connector with .ova file connects to AWS Application discovery service + AWS migration hub - only every 60 minutes
+  - AWS Control Tower
+    - Multi account strategy for migration
+    - Landing zone - multi account architecture follows well architected framework
+    - Created from a series of blueprints
+    - Root OU, Core OU 
+
+#### Migrate and Modernize 
+Servers, database and applications
+  - AWS Application Migration Service
+  - AWS Database Migration Service
+  - AWS Service Catalog
+
+Data Migration
+  - AWS Transfer family
+  - AWS DataSync
+  - AWS Storage Gateway
+  - AWS Snowball Edge
+
+#### AWS Application migration service
+- migrate applications with minimal downtime and interruption
+- Lift and shift approach
+- Converts physical machines to run on AWS
+- AWS replication service - workflow for the migration
+
+#### AWS Database Migration Service
+- Effective migration for databases
+- From and to databases
+- Move data to Amazon Redshift
+- AWS Schema conversion tool
+- Endpoints created - replication tasks to move data
+- AWS service catalog
+  - Allows end users to select pre-approved services
