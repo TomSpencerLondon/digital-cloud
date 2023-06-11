@@ -143,7 +143,3 @@ aws iam delete-instance-profile --instance-profile-name s3-instance-profile
 }
 ```
 
-### IAM Access - 7/6/23
-![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/dfb19158-a67f-4234-a4e5-5abf7d0db98d)
-
-
