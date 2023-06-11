@@ -1049,3 +1049,12 @@ Data Migration
 - Endpoints created - replication tasks to move data
 - AWS service catalog
   - Allows end users to select pre-approved services
+- AWS Service Catalogue
+
+#### AWS DataSync
+- service allows easy transfer of data from on premises
+- AWS S3
+- AWS Amazon Elastic File System
+- Amazon FSx for Windows File Server
+- AWS Snowcone
+- 
