@@ -35,14 +35,14 @@ aws s3 rb s3://EXISTING-BUCKET-NAME
 
 7. Assume Role Command (switch back first)
 
-aws sts assume-role --role-arn arn:aws:iam::<ACCOUNT-NUMBER>:role/<IAM-ROLE-NAME> --role-session-name sts-assumerole-test
+aws sts assume-role --role-arn arn:aws:iam::706054169063:role/my-s3-ro-role-tom --role-session-name sts-assumerole-test
 
 8. Set temporary credentials (update values) | Use the "set" command on Windows
 
 ```bash
-export AWS_ACCESS_KEY_ID=[ACCESS_KEY_ID]
-export AWS_SECRET_ACCESS_KEY=[SECRET_ACCESS_KEY]
-export AWS_SESSION_TOKEN=[SESSION_TOKEN]
+export AWS_ACCESS_KEY_ID=ASIA2IZA3UHTWB6H7HVW
+export AWS_SECRET_ACCESS_KEY=hOFpP82PF/ugyK1rUV+gePDjB6raxNH/ZmgQOXoQ
+export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEID//////////wEaCWV1LXdlc3QtMiJGMEQCIH7O8CzKVMK+wMNj+u9RfajBUsbFGsYqOoEDdJJqIDLWAiBo4/W6BmYSysdgmsSToxiQIuXfIu8pSFhnJ8Otc9AN7yqpAgjJ//////////8BEAIaDDcwNjA1NDE2OTA2MyIMHK+SsRwflcjOBcfIKv0BfA8tvYdiGkWgkWs0r9RMLPydHeBcoGFOI7GfyDTfdG8jnBgCabhp1OBSPHbAOxo0VDjpEdFpqyVL2mkm8GYNwfRzsz0iCVHmGmAqcb5rx2cob/39AGd4Tplt7nzGVuqNStJZhaHdWojmuBzxCsM6lAcy6HNoqktx2PLmlyowSF6tfA25bpSdu0yhkodDHwkqiIDcrXJJXuIqlTdW7KIpdvAopPpzqJO8tOHtjYYTkqfNzcOqYcQ75DysCYdtWrUuopEq14G9s3g/tgttWKi5ERAuFATUIh4wvBaas/RfX8xXDSwgoKRUEPHKD1M0z+rI51kNdfJMcA+34FWBzTCSvJmkBjqeAacN6IM+a/4qQZcuL/RjK8CgOIbTsLemiVsEFupGD2FA4jBpnvz4FZtfRifiwZQmYyi2FBNjxyZdvatRhCFtHpnyQqKbq9raYjA6v7XIwjQTaW8Wbp6b8JknS14yQiOyNJTIopaE2IjQ+UvOS6JohOR+93BU0MWQxIWCnJm/tgp/yF+s730+QMWRF+PXxaVMGASHFEMhlwafSQxeNYk3
 ```
 ***Replace "[ACCESS_KEY_ID]", "[SECRET_ACCESS_KEY]", and "[SESSION_TOKEN]" with the values returned in the "Credentials" block of the "sts assume-role" command***
 
