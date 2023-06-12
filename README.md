@@ -1077,3 +1077,23 @@ Data Migration
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/99717083-55ba-4852-8126-21cd55d7195a)
 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/3a4d269b-723e-40c4-9f6e-bd98b57efa60)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/0b8e7ca4-0ed7-418c-8979-c2c879c4293b)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/90c36c5d-6832-4f8e-ab6f-268eee5686cf)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/8620be69-1293-4fe6-9d4b-185d536baac0)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/8d73cdde-a103-47c0-89e1-8943a264436a)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/717b1a2a-82be-4ef1-b5a3-622770dfce2f)
+
+### Auto Scaling, Amazon ELB (Saturday 10/6/23)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/cba2f6d7-fa92-4e08-b7f2-0e4c49cb78ac)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/76774039-9aa0-431e-88ac-1947c50bddf5)
+
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/6651897b-68c5-49a4-b71f-6a13970fa78a)
+
+

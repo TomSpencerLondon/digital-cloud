@@ -72,19 +72,19 @@ unset AWS_SESSION_TOKEN
 ## Exercise 2: Launch instance and assume role
 
 1. Launch EC2 instance
-aws ec2 run-instances --instance-type t2.micro --image-id <AMI-ID> --region us-east-1
+aws ec2 run-instances --instance-type t2.micro --image-id ami-04a0ae173da5807d3 --region us-east-1
 2. Describe EC2 instance
-aws ec2 describe-instances --instance-ids <INSTANCE-ID>
+aws ec2 describe-instances --instance-ids i-0c5f0099e9031eafc
 3. Create instance profile
 aws iam create-instance-profile --instance-profile-name s3-instance-profile
 4. Add role to instance profile
 aws iam add-role-to-instance-profile --role-name sts-assumerole-test --instance-profile-name s3-instance-profile
 5. Connect to EC2 Instance Connect and run the same S3 test commands as earlier. They should fail
 6. Attach instance profile to EC2 instance
-aws ec2 associate-iam-instance-profile --iam-instance-profile Name=s3-instance-profile --instance-id <INSTANCE-ID>
+aws ec2 associate-iam-instance-profile --iam-instance-profile Name=s3-instance-profile --instance-id i-0c5f0099e9031eafc
 7. Back in EC2 instance connect, run the same S3 test commands as earlier. They should now work successfully
 6. Terminate EC2 instance
-aws ec2 terminate-instances --instance-ids <INSTANCE-ID>
+aws ec2 terminate-instances --instance-ids i-0c5f0099e9031eafc
 7. Remove role from instance profile
 aws iam remove-role-from-instance-profile --role-name sts-assumerole-test --instance-profile-name s3-instance-profile
 8. Delete instance profile
@@ -113,7 +113,7 @@ aws iam delete-instance-profile --instance-profile-name s3-instance-profile
 1. Create an IAM user for testing purposes
 2. Attach an inline policy with the permissions below
 3. Launch an Amazon EC2 instance
-4. Add a tag to the instance (modify the user name): Owner=YOUR-TEST-USER-NAME
+4. Add a tag to the instance (modify the user name): Owner=my-test-user
 5. Log in as the test user and attempt to start and stop the instance
 6. Delete the tag and test again
 
