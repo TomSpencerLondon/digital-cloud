@@ -1097,8 +1097,9 @@ Data Migration
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/6651897b-68c5-49a4-b71f-6a13970fa78a)
 
 
-#### Course: ELastic Load Balancing and Auto Scaling
+#### Course: Elastic Load Balancing and Auto Scaling
 https://digitalcloud.training/courses/aws-certified-solutions-architect-associate-hands-on-labs/sections/section-4-elastic-load-balancing-and-auto-scaling-1hr-40m/lessons/section-4-introduction-3/
 Elasticity - scaling up and out
-- scalability add amount of resources
+- scalability add amount of resources 
 - elasticity means when not need can shrink
+
