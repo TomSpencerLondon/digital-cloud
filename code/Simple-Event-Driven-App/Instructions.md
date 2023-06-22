@@ -17,7 +17,7 @@ Note the Queue URL: *QUEUE URL*
 
 Go to AWS Lambda and create function
 	Name: productVisitsDataHandler
-	Runtime: Node.js 12.x
+	Runtime: Node.js 16.x
 	Role: create new role from templates
 	Role name: lambdaRoleForSQSPermissions
 	Add policy templates: "Simple microservice permissions" and "Amazon SQS poller permissions"
