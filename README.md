@@ -1093,7 +1093,7 @@ Data Migration
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/cba2f6d7-fa92-4e08-b7f2-0e4c49cb78ac)
 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/76774039-9aa0-431e-88ac-1947c50bddf5)
-
+A
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/6651897b-68c5-49a4-b71f-6a13970fa78a)
 
 
@@ -1102,4 +1102,12 @@ https://digitalcloud.training/courses/aws-certified-solutions-architect-associat
 Elasticity - scaling up and out
 - scalability add amount of resources 
 - elasticity means when not need can shrink
+
+
+
+
+
+
+### Service Control Policies policies continued (Wednesday 14/6/23)
+![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/67194b4a-d009-4ea6-be75-a53345002450)
 
