@@ -1116,3 +1116,17 @@ Elasticity - scaling up and out
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/9ef65a0f-d137-477c-abcb-2cd091122a65)
 
 SCPs don't grant permissions - they control which permissions are available for use.
+- Deny List Strategy - FullAWSAccess scp attached to every ou and account - explicit deny overrides any allow
+- Allow List Strategy - FullAWSAccess is removed from every OU and account
+  - We then have to add SCPs with allow statements to be added to very OU above it including the root
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6251daca-f91e-4702-8b15-d142d2ae4c11)
+- Permission has to flow down from the root account
+
+
+
+#### AWS Digital cloud talks - guest speakers and career advancement
+https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
+
+
+
