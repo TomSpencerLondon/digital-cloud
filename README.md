@@ -1111,3 +1111,6 @@ Elasticity - scaling up and out
 ### Service Control Policies policies continued (Wednesday 14/6/23)
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/67194b4a-d009-4ea6-be75-a53345002450)
 
+#### Samarth - lesson plan
+
+<img width="482" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/5c5dd6cc-136d-4b6e-a066-6447b7263167">
