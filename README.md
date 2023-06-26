@@ -1124,7 +1124,7 @@ SCPs don't grant permissions - they control which permissions are available for 
 ![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6251daca-f91e-4702-8b15-d142d2ae4c11)
 - Permission has to flow down from the root account
 
-### Route 53, Cloud Front, GA
+### Route 53, Cloud Front, Global Accelerator
 <img width="1722" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/e45b049c-b8f7-43b3-9902-0007e61b47b8">
 
 <img width="1723" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d1954cd7-8238-4301-a271-cd2a82e384a2">
