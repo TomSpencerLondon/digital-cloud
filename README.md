@@ -1129,6 +1129,8 @@ SCPs don't grant permissions - they control which permissions are available for 
 
 <img width="1723" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/d1954cd7-8238-4301-a271-cd2a82e384a2">
 
+<img width="1724" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/86bec26c-dbd4-43b9-a338-835e6af07c13">
+
 
 #### AWS Digital cloud talks - guest speakers and career advancement
 https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
