@@ -1109,6 +1109,8 @@ https://digitalcloud.training/courses/career-advancement/sections/section-3-gues
 
 <img width="1728" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/0eba3035-2e38-4d9a-b55d-b807d1739b7d">
 
+#### AWS Digital cloud talks - guest speakers and career advancement
+https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
 
 
 ### Service Control Policies policies continued (Wednesday 14/6/23)
@@ -1131,9 +1133,5 @@ SCPs don't grant permissions - they control which permissions are available for 
 
 <img width="1724" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/86bec26c-dbd4-43b9-a338-835e6af07c13">
 
-
-#### AWS Digital cloud talks - guest speakers and career advancement
-https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
-
-
+<img width="1725" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/ba0d0594-7899-4c90-8a9d-51cbe70590b3">
 
