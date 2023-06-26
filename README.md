@@ -1113,3 +1113,9 @@ Elasticity - scaling up and out
 
 ### DNS Route 53
 <img width="1724" alt="image" src="https://github.com/TomSpencerLondon/LeetCode/assets/27693622/3679cf07-d7a0-4984-9a17-9f507fabfff1">
+
+
+#### AWS Digital cloud talks - guest speakers and career advancement
+https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
+
+
