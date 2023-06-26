@@ -1102,7 +1102,12 @@ https://digitalcloud.training/courses/aws-certified-solutions-architect-associat
 Elasticity - scaling up and out
 - scalability add amount of resources 
 - elasticity means when not need can shrink
+- Completed lab - 6 DNS - Auto Scaling and Load Balancing
 
+#### Samarth - lesson plan
+
+#### AWS Digital cloud talks - guest speakers and career advancement
+https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
 
 
 
@@ -1111,11 +1116,20 @@ Elasticity - scaling up and out
 ### Service Control Policies policies continued (Wednesday 14/6/23)
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/67194b4a-d009-4ea6-be75-a53345002450)
 
-### DNS Route 53
-<img width="1724" alt="image" src="https://github.com/TomSpencerLondon/LeetCode/assets/27693622/3679cf07-d7a0-4984-9a17-9f507fabfff1">
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/9ef65a0f-d137-477c-abcb-2cd091122a65)
+
+SCPs don't grant permissions - they control which permissions are available for use.
+- Deny List Strategy - FullAWSAccess scp attached to every ou and account - explicit deny overrides any allow
+- Allow List Strategy - FullAWSAccess is removed from every OU and account
+  - We then have to add SCPs with allow statements to be added to very OU above it including the root
+
+![image](https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/6251daca-f91e-4702-8b15-d142d2ae4c11)
+- Permission has to flow down from the root account
+
 
 
 #### AWS Digital cloud talks - guest speakers and career advancement
 https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
+
 
 
