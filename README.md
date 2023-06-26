@@ -1107,7 +1107,6 @@ Elasticity - scaling up and out
 #### AWS Digital cloud talks - guest speakers and career advancement
 https://digitalcloud.training/courses/career-advancement/sections/section-3-guest-speakers/lessons/your-roadmap-to-success-in-the-cloud-forrest-brazeal/
 
-
 <img width="1728" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/0eba3035-2e38-4d9a-b55d-b807d1739b7d">
 
 
