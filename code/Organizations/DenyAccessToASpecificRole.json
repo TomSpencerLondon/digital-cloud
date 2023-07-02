@@ -17,7 +17,7 @@
         "iam:UpdateRoleDescription"
       ],
       "Resource": [
-        "arn:aws:iam::*:role/name-of-role-to-deny"
+        "arn:aws:iam::747569914967:role/TestSCP"
       ]
     }
   ]

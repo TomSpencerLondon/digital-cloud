@@ -1135,3 +1135,6 @@ SCPs don't grant permissions - they control which permissions are available for 
 
 <img width="1725" alt="image" src="https://github.com/TomSpencerLondon/digital-cloud/assets/27693622/ba0d0594-7899-4c90-8a9d-51cbe70590b3">
 
+### Partner cast 
+
+![image](https://github.com/TomSpencerLondon/azure-lunch-and-learn/assets/27693622/55c32d98-75d4-4b11-9dda-894a2c1dae36)
